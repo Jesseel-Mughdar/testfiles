@@ -1,8 +1,8 @@
-def recur_fibo(n):
+def recur_fibo(m):
    if n <= 1:
-       return n
+       return m
    else:
-       return(recur_fibo(n-1) + recur_fibo(n-2))
+       return(recur_fibo(m-1) + recur_fibo(m-2))
 
 nterms = int(input("enter number"))
 
